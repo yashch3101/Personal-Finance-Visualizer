@@ -8,17 +8,17 @@ const Footer = () => {
 	const socials = [
 		{
 			name: 'GitHub',
-			url: 'https://github.com/0mppula',
+			url: 'https://github.com/yashch3101',
 			icon: <Github className="h-[1.5rem] w-[1.5rem]" />,
 		},
 		{
 			name: 'LinkedIn',
-			url: 'https://www.linkedin.com/in/omarkraidie/',
+			url: 'www.linkedin.com/in/yashchaurasia2910',
 			icon: <Linkedin className="h-[1.5rem] w-[1.5rem]" />,
 		},
 		{
 			name: 'Email',
-			url: 'mailto:devomarkraidie@gmail.com',
+			url: 'chaurasiayash2910@gmail.com',
 			icon: <Mail className="h-[1.5rem] w-[1.5rem]" />,
 		},
 		{
@@ -59,7 +59,7 @@ const Footer = () => {
 					rel="noopener noreferrer"
 					className="active:decoration-lime-800 active:decoration-dashed dark:active:decoration-lime-400 underline"
 				>
-					Omar Kraidié
+					Yash Chaurasia
 				</Link>
 			</div>
 		</footer>

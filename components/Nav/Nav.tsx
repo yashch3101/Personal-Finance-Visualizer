@@ -12,7 +12,7 @@ const Nav = async () => {
 			<div className="flex items-center justify-between h-full gap-2 px-4 sm:px-8 mx-auto max-w-7xl">
 				{/* Logo */}
 				<Link href="/" className="flex items-center gap-2">
-					<p className="font-bold">Money Mapper</p>
+					<p className="font-bold">Personal Finance Visualizer</p>
 				</Link>
 
 				<div className="flex lg:gap-8 gap-4">

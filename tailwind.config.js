@@ -11,8 +11,8 @@ module.exports = {
 		container: {
 			center: true,
 			padding: {
-				DEFAULT: '1rem', // Default padding for all screen sizes
-				sm: '2rem', // Padding for screens greater than small (sm)
+				DEFAULT: '1rem',
+				sm: '2rem',
 			},
 			screens: {
 				'2xl': '1400px',

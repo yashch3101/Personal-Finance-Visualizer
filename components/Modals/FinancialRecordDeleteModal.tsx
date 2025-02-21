@@ -70,8 +70,6 @@ const FinancialRecordDeleteModal = () => {
 	const handleClose = useCallback(() => {
 		deleteFinancialRecordModal.setIsOpen(false);
 
-		// Wait for the modal to close before resetting the deleted record id so that the api call can
-		// be made with the correct id.
 		setTimeout(() => {
 			deleteFinancialRecordModal.setDeletedRecordId(null);
 		}, 300);

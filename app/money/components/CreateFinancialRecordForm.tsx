@@ -72,7 +72,6 @@ const CreateFinancialRecordForm = () => {
 		},
 	});
 
-	// Get the users preferred currency from local storage and set it as the default value for the currency field.
 	useEffect(() => {
 		if (createFinancialRecordModal.isOpen) {
 			form.setValue('currency', getPreferredCurrency());
