@@ -23,7 +23,7 @@ const Footer = () => {
 		},
 		{
 			name: 'Source Code',
-			url: 'https://github.com/0mppula/money-mapper',
+			url: 'https://github.com/yashch3101/Personal-Finance-Visualizer',
 			icon: <Code2 className="h-[1.5rem] w-[1.5rem]" />,
 		},
 	];
